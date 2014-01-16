@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd46eb91-fdb0-4477-beea-3e39f44e2be8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sortalgos/Merge.java" afterPath="$PROJECT_DIR$/src/sortalgos/Merge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sortalgos/Quick.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainsort/Sort.java" afterPath="$PROJECT_DIR$/src/mainsort/Sort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithm_Practice.iws" />
@@ -75,7 +76,7 @@
       <file leaf-file-name="Sort.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainsort/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="26" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1462">
+            <state line="42" column="25" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0" vertical-offset="397" max-vertical-offset="1581">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,10 +84,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Merge.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Merge.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sortalgos/Merge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="9" selection-start="805" selection-end="805" vertical-scroll-proportion="0.7562189" vertical-offset="359" max-vertical-offset="850">
+            <state line="30" column="31" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quick.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sortalgos/Quick.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="57" selection-start="491" selection-end="491" vertical-scroll-proportion="0.9726368" vertical-offset="51" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -115,8 +125,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/sortalgos/Bubble.java" />
-        <option value="$PROJECT_DIR$/src/mainsort/Sort.java" />
         <option value="$PROJECT_DIR$/src/sortalgos/Merge.java" />
+        <option value="$PROJECT_DIR$/src/mainsort/Sort.java" />
+        <option value="$PROJECT_DIR$/src/sortalgos/Quick.java" />
       </list>
     </option>
   </component>
@@ -432,7 +443,11 @@
       <created>1389846334257</created>
       <updated>1389846334257</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge Sort">
+      <created>1389846394800</created>
+      <updated>1389846394800</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -449,14 +464,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18228404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18228404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -480,7 +495,8 @@
     <MESSAGE value="new commit&#10;" />
     <MESSAGE value="commit 2" />
     <MESSAGE value="commit 2&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 2&#10;" />
+    <MESSAGE value="Merge Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -513,18 +529,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sortalgos/Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="31" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mainsort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="26" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1462">
+        <state line="42" column="25" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0" vertical-offset="397" max-vertical-offset="1581">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortalgos/Merge.java">
+    <entry file="file://$PROJECT_DIR$/src/sortalgos/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="9" selection-start="805" selection-end="805" vertical-scroll-proportion="0.7562189" vertical-offset="359" max-vertical-offset="850">
+        <state line="26" column="57" selection-start="491" selection-end="491" vertical-scroll-proportion="0.9726368" vertical-offset="51" max-vertical-offset="697">
           <folding />
         </state>
       </provider>

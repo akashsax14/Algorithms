@@ -2,6 +2,7 @@ package mainsort;
 
 import sortalgos.Bubble;
 import sortalgos.Merge;
+import sortalgos.Quick;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -36,6 +37,12 @@ public class Sort
                     Merge m=new Merge();
                     m.sort();
                     m.print();
+                    break;
+                case 'q':
+                    System.out.println("Quick Sort");
+                    Quick q=new Quick();
+                    q.sort();
+                    q.print();
                     break;
             }
         }
