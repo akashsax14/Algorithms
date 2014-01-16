@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd46eb91-fdb0-4477-beea-3e39f44e2be8" name="Default" comment="new commit&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sortalgos/Merge.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sortalgos/Bubble.java" afterPath="$PROJECT_DIR$/src/sortalgos/Bubble.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainsort/Sort.java" afterPath="$PROJECT_DIR$/src/mainsort/Sort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="dd46eb91-fdb0-4477-beea-3e39f44e2be8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithm_Practice.iws" />
@@ -423,7 +419,11 @@
       <created>1389838222778</created>
       <updated>1389838222778</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new commit&#10;">
+      <created>1389846301115</created>
+      <updated>1389846301115</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
