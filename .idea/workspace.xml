@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd46eb91-fdb0-4477-beea-3e39f44e2be8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sortalgos/Quick.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainsort/Sort.java" afterPath="$PROJECT_DIR$/src/mainsort/Sort.java" />
+    <list default="true" id="dd46eb91-fdb0-4477-beea-3e39f44e2be8" name="Default" comment="Quick  Sort&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithm_Practice.iws" />
@@ -447,7 +445,11 @@
       <created>1389846394800</created>
       <updated>1389846394800</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Quick  Sort&#10;">
+      <created>1389849069277</created>
+      <updated>1389849069277</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -496,7 +498,8 @@
     <MESSAGE value="commit 2" />
     <MESSAGE value="commit 2&#10;" />
     <MESSAGE value="Merge Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge Sort" />
+    <MESSAGE value="Quick  Sort&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quick  Sort&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
