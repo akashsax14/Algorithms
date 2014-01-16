@@ -38,7 +38,6 @@ public class Merge extends Sort
             else
                 a[k++]=h[j++];
         }
-
         while(i<=middle)
             a[k++]=h[i++];
     }
