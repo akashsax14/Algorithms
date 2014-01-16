@@ -1,23 +1,26 @@
 package mainsort;
 
 import sortalgos.Bubble;
+import sortalgos.Merge;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-/**
- * Created by Mr. Saxena on 1/15/14.
- */
 public class Sort
 {
-    int array[] = {45,32,1,67,5,2,9,0,6,7,4,78,99,12,16,22,63,8};
-
+    protected int a[] = {45,32,1,67,5,2,9,0,6,7,4,78,99,12,16,22,63,8};
+    protected void print()
+    {
+        for(int i:a)
+            System.out.print(i + " ");
+        System.out.println();
+    }
     public static void main(String args[])
     {
+        char choice = ' ';
         try
         {
-            char choice = '';
-            System.out.println("Enter : b-Bubble|q-Quick|m-merge : ");
+            System.out.print("Enter : b-Bubble|q-Quick|m-merge : ");
             choice = S.ins().charAt(0);
 
             switch(choice)
@@ -26,9 +29,19 @@ public class Sort
                     System.out.println("Bubble Sort");
                     Bubble b=new Bubble();
                     b.sort();
-
-
+                    b.print();
+                    break;
+                case 'm':
+                    System.out.println("Merge Sort");
+                    Merge m=new Merge();
+                    m.sort();
+                    m.print();
+                    break;
             }
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);
         }
     }
 }
@@ -50,7 +63,7 @@ class S
         return i;
     }
 
-    static int ins()
+    static String ins()
     {
         String i="";
         try{
@@ -64,6 +77,5 @@ class S
         }
         return i;
     }
-
 
 }

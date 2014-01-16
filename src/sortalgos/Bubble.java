@@ -2,15 +2,12 @@ package sortalgos;
 
 import mainsort.Sort;
 
-/**
- * Created by Mr. Saxena on 1/15/14.
- */
 public class Bubble extends Sort
 {
     int a[],l=0;
-    Bubble()
+    public Bubble()
     {
-        a=array;
+        this.a=super.a;
         l=a.length;
     }
 
