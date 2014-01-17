@@ -92,7 +92,7 @@
       <file leaf-file-name="Quick.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sortalgos/Quick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="25" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="697">
+            <state line="12" column="5" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -101,7 +101,7 @@
       <file leaf-file-name="Insertion.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sortalgos/Insertion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="92" selection-end="92" vertical-scroll-proportion="0.33830845" vertical-offset="0" max-vertical-offset="402">
+            <state line="8" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.33830845" vertical-offset="0" max-vertical-offset="402">
               <folding />
             </state>
           </provider>
@@ -577,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortalgos/Quick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mainsort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="26" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0" vertical-offset="397" max-vertical-offset="1547">
@@ -591,9 +584,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sortalgos/Quick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Insertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="92" selection-end="92" vertical-scroll-proportion="0.33830845" vertical-offset="0" max-vertical-offset="402">
+        <state line="8" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.33830845" vertical-offset="0" max-vertical-offset="402">
           <folding />
         </state>
       </provider>
