@@ -44,6 +44,9 @@ public class Sort
                     q.sort();
                     q.print();
                     break;
+                default:
+                    System.out.println("Please select from the given option!");
+                    break;
             }
         }
         catch(Exception e)
