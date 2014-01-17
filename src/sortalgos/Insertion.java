@@ -1,11 +1,14 @@
 package sortalgos;
 
 
-public class Insertion
+import mainsort.Sort;
+
+public class Insertion extends Sort
 {
     int a[], l;
     Insertion()
     {
-        ab
+        this.a=super.a;
+        l=a.length;
     }
 }
