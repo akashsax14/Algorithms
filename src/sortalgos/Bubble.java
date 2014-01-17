@@ -13,17 +13,21 @@ public class Bubble extends Sort
 
     public void sort()
     {
+        boolean flag=false;
         for(int i=0;i<l;i++)
         {
-            for(int j=i;j<l;j++)
+            flag=false;
+            for(int j=l-1;j>=i+1;j--)
             {
-                if(a[i]>a[j])
+                if(a[j]<a[j-1])
                 {
-                    int t=a[i];
-                    a[i]=a[j];
-                    a[j]=t;
+                    int t=a[j];
+                    a[j]=a[j-1];
+                    a[j-1]=t;
+                    flag=true;
                 }
             }
+            if(!flag) break;
         }
     }
 }

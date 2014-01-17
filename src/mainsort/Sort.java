@@ -51,7 +51,7 @@ public class Sort
         }
         catch(Exception e)
         {
-            System.out.println(e);
+            System.out.println(e+" : "+e.getStackTrace()[2].getLineNumber());
         }
     }
 }

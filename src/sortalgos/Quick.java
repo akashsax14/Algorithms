@@ -20,6 +20,7 @@ public class Quick extends Sort
     {
         int i=low, j=high;
         int pivot=a[(low+high)/2];
+
         while(i<=j)
         {
             while(a[i]<pivot)i++;
