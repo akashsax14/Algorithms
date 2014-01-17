@@ -21,7 +21,7 @@ public class Sort
         char choice = ' ';
         try
         {
-            System.out.print("Enter : b-Bubble|q-Quick|m-merge : ");
+            System.out.print("Enter : b-Bubble|q-Quick|m-Merge : ");
             choice = S.ins().charAt(0);
 
             switch(choice)
