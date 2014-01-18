@@ -31,5 +31,5 @@ public class Quick extends Sort
         if(low<j)quicksort(low,j);
         if(i<high)quicksort(i,high);
     }
-    void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;}
+    //void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;} present in parent class
 }

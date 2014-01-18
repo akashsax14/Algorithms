@@ -1,8 +1,6 @@
 package mainsort;
 
-import sortalgos.Bubble;
-import sortalgos.Merge;
-import sortalgos.Quick;
+import sortalgos.*;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -16,12 +14,13 @@ public class Sort
             System.out.print(i + " ");
         System.out.println();
     }
+    protected void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;}
     public static void main(String args[])
     {
         char choice = ' ';
         try
         {
-            System.out.print("Enter : b-Bubble|q-Quick|m-Merge : ");
+            System.out.print("Enter : b-Bubble|q-Quick|m-Merge|i-Insertion|s-Selection|h-Heap : ");
             choice = S.ins().charAt(0);
 
             switch(choice)
@@ -43,6 +42,24 @@ public class Sort
                     Quick q=new Quick();
                     q.sort();
                     q.print();
+                    break;
+                case 'i':
+                    System.out.println("Insertion Sort");
+                    Insertion i=new Insertion();
+                    i.sort();
+                    i.print();
+                    break;
+                case 's':
+                    System.out.println("Selection Sort");
+                    Selection s=new Selection();
+                    s.sort();
+                    s.print();
+                    break;
+                case 'h':
+                    System.out.println("Heap Sort");
+                    HeapSort h=new HeapSort();
+                    h.sort();
+                    h.print();
                     break;
                 default:
                     System.out.println("Please select from the given option!");
