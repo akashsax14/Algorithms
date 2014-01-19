@@ -1,15 +1,28 @@
 package sortalgos;
 
-import mainsort.Sort;
+import io.S;
 
-public class Selection extends Sort
-{
+public class Selection {
     int a[], l;
     public Selection()
     {
-        this.a=super.a;
+        this.a= S.ina();
         l=a.length;
     }
+    public Selection(int x[])
+    {
+        a=x;
+        l=a.length;
+    }
+    public void print()
+    {
+        System.out.print("[ ");
+        for(int i:a)
+            System.out.print(i + " ");
+        System.out.println("]");
+    }
+
+    
     public void sort()
     {
         int k;
@@ -21,5 +34,5 @@ public class Selection extends Sort
                     swap(j,k);
         }
     }
-    //void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;} present in parent class
+    void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;}
 }

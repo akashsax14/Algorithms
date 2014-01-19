@@ -1,15 +1,27 @@
 package sortalgos;
 
-import mainsort.Sort;
+import io.S;
 
-public class Bubble extends Sort
-{
+public class Bubble {
     int a[],l=0;
     public Bubble()
     {
-        this.a=super.a;
+        this.a= S.ina();
         l=a.length;
     }
+    public Bubble(int x[])
+    {
+        a=x;
+        l=a.length;
+    }
+    public void print()
+    {
+        System.out.print("[ ");
+        for(int i:a)
+            System.out.print(i + " ");
+        System.out.println("]");
+    }
+
 
     public void sort()
     {
@@ -26,5 +38,5 @@ public class Bubble extends Sort
             if(!flag) break;
         }
     }
-    //void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;} present in parent class
+    void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;}
 }

@@ -1,14 +1,13 @@
 package sortalgos;
 
 
-import mainsort.Sort;
+import io.S;
 
-public class Quick3 extends Sort
-{
+public class Quick3 {
     int a[], l;
     public Quick3()
     {
-        this.a=super.a;
+        this.a= S.ina();
         l=a.length;
     }
     public void sort()

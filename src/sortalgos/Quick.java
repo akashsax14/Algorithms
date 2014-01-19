@@ -1,16 +1,28 @@
 package sortalgos;
 
-import mainsort.Sort;
+import io.S;
 
-public class Quick extends Sort
-{
-    int a[],l;
+public class Quick {
+    int a[]=new int[10],l;
 
     public Quick()
     {
-        this.a=super.a;
+        this.a= S.ina();
         l=a.length;
     }
+    public Quick(int x[])
+    {
+        a=x;
+        l=this.a.length;
+    }
+    public void print()
+    {
+        System.out.print("[ ");
+        for(int i:a)
+            System.out.print(i + " ");
+        System.out.println("]");
+    }
+
 
     public void sort()
     {
@@ -31,5 +43,5 @@ public class Quick extends Sort
         if(low<j)quicksort(low,j);
         if(i<high)quicksort(i,high);
     }
-    //void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;} present in parent class
+    void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;}
 }

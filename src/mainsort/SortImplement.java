@@ -1,21 +1,14 @@
 package mainsort;
 
+
 import io.S;
 import sortalgos.*;
 
-public class Sort
+public class SortImplement
 {
-    protected int a[] = {45,32,1,67,5,2,9,0,6,7,4,78,99,12,16,22,63,8};
-    protected void print()
-    {
-        System.out.print("[ ");
-        for(int i:a)
-            System.out.print(i + " ");
-        System.out.println("]");
-    }
-    protected void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;}
     public static void main(String args[])
     {
+        int ba[]={5,6,1,4,8,2,3,7};
         char choice;
         try
         {
@@ -38,7 +31,7 @@ public class Sort
                     break;
                 case 'q':
                     System.out.println("Quick Sort");
-                    Quick q=new Quick();
+                    Quick q=new Quick(ba);
                     q.sort();
                     q.print();
                     break;
@@ -71,4 +64,3 @@ public class Sort
         }
     }
 }
-

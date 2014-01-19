@@ -1,16 +1,29 @@
 package sortalgos;
 
-import mainsort.Sort;
+import io.S;
 
-public class Merge extends Sort
-{
+public class Merge {
     int a[],h[],l=0;
     public Merge()
     {
-        this.a=super.a;
+        this.a= S.ina();
         l=a.length;
         h=new int[l];
     }
+    public Merge(int x[])
+    {
+        a=x;
+        l=a.length;
+        h=new int[l];
+    }
+    public void print()
+    {
+        System.out.print("[ ");
+        for(int i:a)
+            System.out.print(i + " ");
+        System.out.println("]");
+    }
+
 
     public void sort()
     {
