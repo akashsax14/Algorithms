@@ -19,25 +19,38 @@ public class Stack
     }
     public void push(int i)
     {
-        a[++top]=i;
+        if(top+1==l)
+            System.out.println("\t****Stack Full : Cannot Push****");
+        else
+            a[++top]=i;
     }
     public int pop()
     {
-        int t=a[top];
-        a[top]=0;
-        top--;
+        int t=-1;
+        if(top==-1)
+            System.out.println("\t****Stack Empty : Cannot Pop****");
+        else
+        {
+            t=a[top];
+            a[top]=0;
+            top--;
+        }
         return t;
     }
     public int peek()
     {
-        return a[top];
+        if(top==-1)
+            System.out.println("\t****Stack Empty : Cannot Peek****");
+        else
+            return a[top];
+        return -1;
     }
     public void print()
     {
-        System.out.print("[ ");
+        System.out.print("\t[ ");
         for(int i=0;i<=top;i++)
             System.out.print(a[i] + " ");
-        System.out.println("]");
+        System.out.print("]");
     }
     public void implementStack()
     {
@@ -61,25 +74,30 @@ public class Stack
                         System.out.print("\tEnter value : ");
                         v=S.ini();
                         push(v);
+                        System.out.print("\t");print();
+                        System.out.println(" <-- "+v);
                     }
                     break;
                 case 2:
                     if(top==-1)
                         System.out.println("\t****Stack Empty : Cannot Pop****");
                     else
-                        System.out.println(pop());
+                        System.out.print("\t");
+                        print();
+                        System.out.println(" --> "+pop());
                     break;
                 case 3:
                     if(top==-1)
                         System.out.println("\t****Stack Empty : Cannot Peek****");
                     else
-                        System.out.println(peek());
+                        System.out.println("\t"+peek());
                     break;
                 case 4:
                     print();
+                    System.out.println();
                     break;
                 case 5:
-                    System.out.println("\t****Sorting array****");
+                    System.out.println("\t****Sorting Stack****");
                     Quick q=new Quick(a);
                     q.sort();
                     break;

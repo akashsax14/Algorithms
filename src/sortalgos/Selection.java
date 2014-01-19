@@ -22,7 +22,7 @@ public class Selection {
         System.out.println("]");
     }
 
-    
+
     public void sort()
     {
         int k;

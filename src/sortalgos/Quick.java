@@ -15,6 +15,11 @@ public class Quick {
         a=x;
         l=this.a.length;
     }
+    public Quick(int x[], int y)
+    {
+        a=x;
+        l=y+1;
+    }
     public void print()
     {
         System.out.print("[ ");

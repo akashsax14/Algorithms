@@ -9,7 +9,7 @@ public class DataStructures
         char choice;
         try
         {
-            System.out.print("Test Data Structure : s-Stack : ");
+            System.out.print("Test Data Structure : s-Stack|q-Queue : ");
             choice = S.ins().charAt(0);
 
             switch(choice)
@@ -26,7 +26,15 @@ public class DataStructures
                     }
                     break;
                 case 'q':
-
+                    l=0;
+                    System.out.println("********Queue Implementation********");
+                    System.out.print("Enter size of queue : ");
+                    l= S.ini();
+                    if(l>0)
+                    {
+                        Queue q=new Queue(l);
+                        q.implementQueue();
+                    }
                     break;
             }
         }
