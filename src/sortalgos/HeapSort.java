@@ -20,15 +20,15 @@ public class HeapSort extends Sort
     }
     void sortdown()
     {
-        for(int i=1; i<l;i++)
+        for(int i=1; i<=l;i++)
         {
-            swap(1,l-i+1);
-            sink(1,l-i);
+            swap(0,l-i+1);
+            sink(0,l-i);
         }
     }
     void heapify()
     {
-        for(int i=l/2; i>=1 ;i--)
+        for(int i=l; i>=0 ;i--)     // 5 2 4
             sink(i, l);
     }
     void sink(int i, int l)
