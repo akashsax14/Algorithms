@@ -18,16 +18,13 @@ public class Bubble extends Sort
         {
             flag=false;
             for(int j=l-1;j>=i+1;j--)
-            {
                 if(a[j]<a[j-1])
                 {
-                    int t=a[j];
-                    a[j]=a[j-1];
-                    a[j-1]=t;
+                    swap(j,j-1);
                     flag=true;
                 }
-            }
             if(!flag) break;
         }
     }
+    //void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;} present in parent class
 }

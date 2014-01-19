@@ -10,11 +10,12 @@ public class HeapSort extends Sort
     public HeapSort()
     {
         this.a = super.a;
-        l=a.length-1;
+        l=a.length;
     }
 
     public void sort()
     {
+        l--;
         heapify();
         sortdown();
     }
@@ -41,4 +42,5 @@ public class HeapSort extends Sort
         swap(i, max);
         sink(max, l);
     }
+    //void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;} present in parent class
 }
