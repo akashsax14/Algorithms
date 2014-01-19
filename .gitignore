@@ -213,3 +213,18 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+.idea/workspace.xml
+.idea/uiDesigner.xml
+.idea/workspace.xml
+src/sortalgos/Insertion.java.orig
+.gitignore
+.idea/workspace.xml
+out/production/Algorithm_Practice/mainsort/S.class
+out/production/Algorithm_Practice/mainsort/Sort.class
+out/production/Algorithm_Practice/sortalgos/Bubble.class
+out/production/Algorithm_Practice/sortalgos/Insertion.class
+out/production/Algorithm_Practice/sortalgos/Merge.class
+out/production/Algorithm_Practice/sortalgos/Quick.class
+src/sortalgos/Insertion.java.orig
+out/production/Algorithm_Practice/mainsort/S.class
+out/production/Algorithm_Practice/mainsort/Sort.class

@@ -17,7 +17,7 @@ public class Sort
     protected void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;}
     public static void main(String args[])
     {
-        char choice = ' ';
+        char choice;
         try
         {
             System.out.print("Enter : b-Bubble|q-Quick|m-Merge|i-Insertion|s-Selection|h-Heap : ");

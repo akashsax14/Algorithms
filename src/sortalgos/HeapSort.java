@@ -6,7 +6,7 @@ import mainsort.Sort;
 public class HeapSort extends Sort
 {
     int a[], l;
-    int left,right,main;
+    int left,right,max;
     public HeapSort()
     {
         this.a = super.a;
@@ -15,7 +15,7 @@ public class HeapSort extends Sort
 
     public void sort()
     {
-        heapify(); // 8 4 6 2 1 3 5
+        heapify();
         sortdown();
     }
     void sortdown()
@@ -28,7 +28,7 @@ public class HeapSort extends Sort
     }
     void heapify()
     {
-        for(int i=l; i>=0 ;i--)     // 5 2 4
+        for(int i=l; i>=0 ;i--)
             sink(i, l);
     }
     void sink(int i, int l)
@@ -36,9 +36,9 @@ public class HeapSort extends Sort
         left=2*i;
         if(left > l) return;
         right=2*i+1;
-        main=right>l ? left : (a[left]>a[right] ? left : right);
-        if(a[i]>=a[main]) return;
-        swap(i, main);
-        sink(main, l);
+        max=right>l ? left : (a[left]>a[right] ? left : right);
+        if(a[i]>=a[max]) return;
+        swap(i, max);
+        sink(max, l);
     }
 }
