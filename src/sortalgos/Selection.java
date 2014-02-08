@@ -2,14 +2,14 @@ package sortalgos;
 
 import io.S;
 
-public class Bubble {
-    int a[],l=0;
-    public Bubble()
+public class Selection {
+    int a[], l;
+    public Selection()
     {
         this.a= S.ina();
         l=a.length;
     }
-    public Bubble(int x[])
+    public Selection(int x[])
     {
         a=x;
         l=a.length;
@@ -25,17 +25,13 @@ public class Bubble {
 
     public void sort()
     {
-        boolean flag=false;
+        int k;
         for(int i=0;i<l;i++)
         {
-            flag=false;
-            for(int j=l-1;j>=i+1;j--)
-                if(a[j]<a[j-1])
-                {
-                    swap(j,j-1);
-                    flag=true;
-                }
-            if(!flag) break;
+            k=i;
+            for(int j=i+1; j<l ; j++)
+                if(a[j]<a[k])
+                    swap(j,k);
         }
     }
     void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;}

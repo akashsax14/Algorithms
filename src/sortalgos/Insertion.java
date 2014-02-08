@@ -1,15 +1,16 @@
 package sortalgos;
 
+
 import io.S;
 
-public class Bubble {
-    int a[],l=0;
-    public Bubble()
+public class Insertion {
+    int a[], l;
+    public Insertion()
     {
         this.a= S.ina();
         l=a.length;
     }
-    public Bubble(int x[])
+    public Insertion(int x[])
     {
         a=x;
         l=a.length;
@@ -25,18 +26,9 @@ public class Bubble {
 
     public void sort()
     {
-        boolean flag=false;
-        for(int i=0;i<l;i++)
-        {
-            flag=false;
-            for(int j=l-1;j>=i+1;j--)
-                if(a[j]<a[j-1])
-                {
-                    swap(j,j-1);
-                    flag=true;
-                }
-            if(!flag) break;
-        }
+        for(int i=1;i<l;i++)
+            for(int j=i; j>=1 && a[j]<a[j-1]; j--)
+                swap(j,j-1);
     }
     void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;}
 }
