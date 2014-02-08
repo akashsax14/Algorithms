@@ -51,7 +51,7 @@ public class Queue
     }
     public void print()
     {
-        System.out.print("[ ");
+        System.out.print("\t[ ");
         for(int i=0;i<l;i++)
         {
             if(i<=front || i>rear)
@@ -92,7 +92,7 @@ public class Queue
                         System.out.println("\t****Queue Empty : Cannot Dequeue****");
                     else
                     {
-                        System.out.print(dequeue()+" <-- ");
+                        System.out.print("\t"+dequeue()+" <-- ");
                         print();
                         System.out.println();
                     }

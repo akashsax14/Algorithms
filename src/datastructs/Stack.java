@@ -74,7 +74,7 @@ public class Stack
                         System.out.print("\tEnter value : ");
                         v=S.ini();
                         push(v);
-                        System.out.print("\t");print();
+                        print();
                         System.out.println(" <-- "+v);
                     }
                     break;
@@ -82,9 +82,11 @@ public class Stack
                     if(top==-1)
                         System.out.println("\t****Stack Empty : Cannot Pop****");
                     else
-                        System.out.print("\t");
+                    {
+                        int p = pop();
                         print();
-                        System.out.println(" --> "+pop());
+                        System.out.println(" --> "+p);
+                    }
                     break;
                 case 3:
                     if(top==-1)
