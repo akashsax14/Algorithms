@@ -4,11 +4,22 @@ package mainsort;
 import io.S;
 import sortalgos.*;
 
+import java.util.Random;
+
 public class SortImplement
 {
     public static void main(String args[])
     {
-        int ba[]={5,6,1,4,8,2,3,7};
+        int ba[]=new int[100000];
+        long startTime, stopTime, elapsedTime;
+        Random r=new Random();
+        System.out.print("Original Array : [ ");
+        for(int i=0;i<100000;i++)
+        {
+            ba[i] = r.nextInt(1000000000);
+            //System.out.print(ba[i] + " ");
+        }
+        System.out.println("]");
         char choice;
         try
         {
@@ -19,39 +30,63 @@ public class SortImplement
             {
                 case 'b':
                     System.out.println("Bubble Sort");
-                    Bubble b=new Bubble();
+                    Bubble b=new Bubble(ba);
+                        startTime = System.currentTimeMillis();
                     b.sort();
-                    b.print();
+                        stopTime = System.currentTimeMillis();
+                        elapsedTime = stopTime - startTime;
+                        System.out.println(elapsedTime+" milli seconds");
+                    //b.print();
                     break;
                 case 'm':
                     System.out.println("Merge Sort");
-                    Merge m=new Merge();
+                    Merge m=new Merge(ba);
+                        startTime = System.currentTimeMillis();
                     m.sort();
-                    m.print();
+                        stopTime = System.currentTimeMillis();
+                        elapsedTime = stopTime - startTime;
+                        System.out.println(elapsedTime+" milli seconds");
+                    //m.print();
                     break;
                 case 'q':
                     System.out.println("Quick Sort");
                     Quick q=new Quick(ba);
+                        startTime = System.currentTimeMillis();
                     q.sort();
-                    q.print();
+                        stopTime = System.currentTimeMillis();
+                        elapsedTime = stopTime - startTime;
+                        System.out.println(elapsedTime+" milli seconds");
+                    //q.print();
                     break;
                 case 'i':
                     System.out.println("Insertion Sort");
-                    Insertion i=new Insertion();
+                    Insertion i=new Insertion(ba);
+                        startTime = System.currentTimeMillis();
                     i.sort();
-                    i.print();
+                        stopTime = System.currentTimeMillis();
+                        elapsedTime = stopTime - startTime;
+                        System.out.println(elapsedTime+" milli seconds");
+                    //i.print();
                     break;
                 case 's':
                     System.out.println("Selection Sort");
-                    Selection s=new Selection();
+                    Selection s=new Selection(ba);
+                        startTime = System.currentTimeMillis();
                     s.sort();
-                    s.print();
+                        stopTime = System.currentTimeMillis();
+                        elapsedTime = stopTime - startTime;
+                        System.out.println(elapsedTime+" milli seconds");
+                    //s.print();
                     break;
                 case 'h':
                     System.out.println("Heap Sort");
-                    HeapSort h=new HeapSort();
+                    HeapSort h=new HeapSort(ba);
+                        startTime = System.currentTimeMillis();
                     h.sort();
-                    h.print();
+                        stopTime = System.currentTimeMillis();
+                        elapsedTime = stopTime - startTime;
+                        System.out.println(elapsedTime+" milli seconds");
+                    //h.print();
                     break;
                 default:
                     System.out.println("Please select from the given option!");
