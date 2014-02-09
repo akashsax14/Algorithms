@@ -2,14 +2,14 @@ package datastructs;
 
 import io.S;
 
-public class DataStructures
+public class DataStructuresImplement
 {
     public static void main(String args[])
     {
         char choice;
         try
         {
-            System.out.print("Test Data Structure : s-Stack|q-Queue : ");
+            System.out.print("Test Data Structure : s-Stack|q-Queue|h-Heap : ");
             choice = S.ins().charAt(0);
 
             switch(choice)
@@ -34,6 +34,17 @@ public class DataStructures
                     {
                         Queue q=new Queue(l);
                         q.implementQueue();
+                    }
+                    break;
+                case 'h':
+                    l=0;
+                    System.out.println("********Heap Implementation********");
+                    System.out.print("Enter size of binary heap : ");
+                    l= S.ini();
+                    if(l>0)
+                    {
+                        Heap h=new Heap(l);
+                        h.implementQueue();
                     }
                     break;
             }

@@ -10,11 +10,11 @@ public class SortImplement
 {
     public static void main(String args[])
     {
-        int ba[]=new int[100000];
+        int ba[]=new int[1000000];
         long startTime, stopTime, elapsedTime;
         Random r=new Random();
         System.out.print("Original Array : [ ");
-        for(int i=0;i<100000;i++)
+        for(int i=0;i<1000000;i++)
         {
             ba[i] = r.nextInt(1000000000);
             //System.out.print(ba[i] + " ");

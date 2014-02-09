@@ -9,7 +9,8 @@ public class Stack
 
     public Stack()
     {
-        l=0;
+        l=10;
+        a=new int[10];
         top=-1;
     }
     public Stack(int l)
@@ -17,14 +18,14 @@ public class Stack
         a=new int[l];
         this.l=l;
     }
-    public void push(int i)
+    private void push(int i)
     {
         if(top+1==l)
             System.out.println("\t****Stack Full : Cannot Push****");
         else
             a[++top]=i;
     }
-    public int pop()
+    private int pop()
     {
         int t=-1;
         if(top==-1)
@@ -37,7 +38,7 @@ public class Stack
         }
         return t;
     }
-    public int peek()
+    private int peek()
     {
         if(top==-1)
             System.out.println("\t****Stack Empty : Cannot Peek****");
@@ -45,7 +46,7 @@ public class Stack
             return a[top];
         return -1;
     }
-    public void print()
+    private void print()
     {
         System.out.print("\t[ ");
         for(int i=0;i<=top;i++)

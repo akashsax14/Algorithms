@@ -11,6 +11,7 @@ public class Queue
     public Queue()
     {
         l=0;
+        a=new int[10];
         front=-1;
         rear=-1;
     }
@@ -19,14 +20,14 @@ public class Queue
         a=new int[l];
         this.l=l;
     }
-    public void enqueue(int i)
+    private void enqueue(int i)
     {
         if(rear+1==l)
             System.out.println("****Queue Full : Cannot Enqueue****");
         else
             a[++rear]=i;
     }
-    public int dequeue()
+    private int dequeue()
     {
         if(front+1>rear)
             System.out.println("****Queue Empty : Cannot Dequeue****");
@@ -37,7 +38,7 @@ public class Queue
         }
         return -1;
     }
-    public void move()
+    private void move()
     {
         while(front !=-1)
         {
@@ -49,7 +50,7 @@ public class Queue
             rear--;
         }
     }
-    public void print()
+    private void print()
     {
         System.out.print("\t[ ");
         for(int i=0;i<l;i++)
