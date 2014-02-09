@@ -44,7 +44,7 @@ public class DataStructuresImplement
                     if(l>0)
                     {
                         Heap h=new Heap(l);
-                        h.implementQueue();
+                        h.implementHeap();
                     }
                     break;
             }

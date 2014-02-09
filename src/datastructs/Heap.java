@@ -65,7 +65,7 @@ public class Heap
     }
     private void swap(int i, int j){int t=a[i];a[i]=a[j];a[j]=t;}
 
-    public void implementQueue()
+    public void implementHeap()
     {
         int ch=0;
         System.out.print("Operations : 1-add|2-delete|3-max|4-print|5-quit|0-operations : ");
