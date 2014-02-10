@@ -1,8 +1,7 @@
-package mainsort;
+package sortalgos;
 
 
 import io.S;
-import sortalgos.*;
 
 import java.util.Random;
 
@@ -16,7 +15,7 @@ public class SortImplement
         System.out.print("Original Array : [ ");
         for(int i=0;i<1000000;i++)
         {
-            ba[i] = r.nextInt(1000000000);
+            ba[i] = r.nextInt(100000000);
             //System.out.print(ba[i] + " ");
         }
         System.out.println("]");
