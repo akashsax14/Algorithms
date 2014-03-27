@@ -5,11 +5,11 @@ import io.S;
 //Stack Implementation using Linked List
 public class StackLL
 {
-    Node top = null;
+    LinkedList top = null;
 
     protected void push(int i)
     {
-        top = new Node(i, top);
+        top = new LinkedList(i, top);
     }
     protected int pop()
     {
@@ -23,7 +23,7 @@ public class StackLL
     }
     protected void print()
     {
-        Node temp = top;
+        LinkedList temp = top;
         System.out.print("\t[ ");
         while(temp !=null)
         {

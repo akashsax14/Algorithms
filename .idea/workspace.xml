@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd46eb91-fdb0-4477-beea-3e39f44e2be8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructs/DataStructuresImplement.java" afterPath="$PROJECT_DIR$/src/datastructs/DataStructuresImplement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructs/Heap.java" afterPath="$PROJECT_DIR$/src/datastructs/Heap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructs/Node.java" afterPath="$PROJECT_DIR$/src/datastructs/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructs/PriorityQueue.java" afterPath="$PROJECT_DIR$/src/datastructs/PriorityQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructs/Queue.java" afterPath="$PROJECT_DIR$/src/datastructs/Queue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructs/Stack.java" afterPath="$PROJECT_DIR$/src/datastructs/Stack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructs/StackLL.java" afterPath="$PROJECT_DIR$/src/datastructs/StackLL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Git_Repository\Algorithms\src\mainsort\SortImplement.java" afterPath="$PROJECT_DIR$/src/sortalgos/SortImplement.java" />
-    </list>
+    <list default="true" id="dd46eb91-fdb0-4477-beea-3e39f44e2be8" name="Default" comment="" />
     <ignored path="Algorithm_Practice.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,28 +69,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Node.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/datastructs/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StackLL.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/datastructs/StackLL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="24" selection-start="622" selection-end="622" vertical-scroll-proportion="0.9234568" vertical-offset="187" max-vertical-offset="1717">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataStructuresImplement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructs/DataStructuresImplement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="25" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1343">
+            <state line="14" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.3888889" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -134,12 +106,16 @@
         <option value="$PROJECT_DIR$/src/sortalgos/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/datastructs/PriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/datastructs/Heap.java" />
-        <option value="$PROJECT_DIR$/src/sortalgos/SortImplement.java" />
         <option value="$PROJECT_DIR$/src/datastructs/Queue.java" />
         <option value="$PROJECT_DIR$/src/datastructs/Stack.java" />
-        <option value="$PROJECT_DIR$/src/datastructs/Node.java" />
         <option value="$PROJECT_DIR$/src/datastructs/DataStructuresImplement.java" />
         <option value="$PROJECT_DIR$/src/datastructs/StackLL.java" />
+        <option value="$PROJECT_DIR$/src/searchalgos/SequentialSearch.java" />
+        <option value="$PROJECT_DIR$/src/sortalgos/SortImplement.java" />
+        <option value="$PROJECT_DIR$/src/searchalgos/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/searchalgos/SearchImplement.java" />
+        <option value="$PROJECT_DIR$/src/gui/AlgorithmGui.java" />
+        <option value="$PROJECT_DIR$/src/datastructs/Node.java" />
       </list>
     </option>
   </component>
@@ -149,7 +125,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -175,6 +151,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,10 +202,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -249,8 +223,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,7 +236,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -446,9 +418,43 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="SearchImplement" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="searchalgos.SearchImplement" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithm_Practice" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AlgorithmGui" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="gui.AlgorithmGui" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithm_Practice" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.DataStructuresImplement" />
       <item index="1" class="java.lang.String" itemvalue="Application.SortImplement" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SearchImplement" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AlgorithmGui" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -456,6 +462,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -524,17 +535,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15885799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32445142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15885799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32445142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -551,6 +562,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <MESSAGE value="new commit" />
     <MESSAGE value="new commit&#10;" />
     <MESSAGE value="commit 2" />
@@ -567,378 +579,269 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/searchalgos/SearchImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="24" selection-start="21346" selection-end="21346" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1258" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/searchalgos/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/searchalgos/SequentialSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/searchalgos/SearchImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="63" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="935" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="9" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="986">
-          <folding />
-        </state>
+        <state line="41" column="9" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="986" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructs/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1088">
-          <folding />
-        </state>
+        <state line="32" column="5" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1088" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/SortImplement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="42" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1819">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="18" column="42" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1819" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructs/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="21" selection-start="2104" selection-end="2104" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="2295">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="87" column="21" selection-start="2104" selection-end="2104" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="2295" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="9" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="41" column="9" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructs/DataStructuresImplement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="31" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="884">
-          <folding />
-        </state>
+        <state line="20" column="31" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="884" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructs/DataStructuresImplement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
+        <state line="15" column="13" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructs/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="561">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="11" column="16" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Selection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="83" selection-start="395" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="527">
-          <folding>
-            <element signature="method#Selection#0;class#Selection#0" expanded="false" />
-            <element signature="method#Selection#1;class#Selection#0" expanded="false" />
-            <element signature="method#print#0;class#Selection#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="23" column="83" selection-start="395" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Insertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="83" selection-start="85" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="459">
-          <folding>
-            <element signature="method#Insertion#0;class#Insertion#0" expanded="false" />
-            <element signature="method#Insertion#1;class#Insertion#0" expanded="false" />
-            <element signature="method#print#0;class#Insertion#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="19" column="83" selection-start="85" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="34" column="5" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Selection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="83" selection-start="395" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="527">
-          <folding>
-            <element signature="method#Selection#0;class#Selection#0" expanded="false" />
-            <element signature="method#Selection#1;class#Selection#0" expanded="false" />
-            <element signature="method#print#0;class#Selection#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="23" column="83" selection-start="395" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Insertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="83" selection-start="85" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="459">
-          <folding>
-            <element signature="method#Insertion#0;class#Insertion#0" expanded="false" />
-            <element signature="method#Insertion#1;class#Insertion#0" expanded="false" />
-            <element signature="method#print#0;class#Insertion#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="19" column="83" selection-start="85" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="31" column="23" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Selection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="83" selection-start="395" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="527">
-          <folding>
-            <element signature="method#Selection#0;class#Selection#0" expanded="false" />
-            <element signature="method#Selection#1;class#Selection#0" expanded="false" />
-            <element signature="method#print#0;class#Selection#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="23" column="83" selection-start="395" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Insertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="83" selection-start="85" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="459">
-          <folding>
-            <element signature="method#Insertion#0;class#Insertion#0" expanded="false" />
-            <element signature="method#Insertion#1;class#Insertion#0" expanded="false" />
-            <element signature="method#print#0;class#Insertion#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="19" column="83" selection-start="85" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="388" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="31" column="23" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="388" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Selection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="83" selection-start="395" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="527">
-          <folding>
-            <element signature="method#Selection#0;class#Selection#0" expanded="false" />
-            <element signature="method#Selection#1;class#Selection#0" expanded="false" />
-            <element signature="method#print#0;class#Selection#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="23" column="83" selection-start="395" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Insertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="83" selection-start="85" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="459">
-          <folding>
-            <element signature="method#Insertion#0;class#Insertion#0" expanded="false" />
-            <element signature="method#Insertion#1;class#Insertion#0" expanded="false" />
-            <element signature="method#print#0;class#Insertion#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="19" column="83" selection-start="85" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="37" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="765">
-          <folding>
-            <element signature="method#Merge#0;class#Merge#0" expanded="false" />
-            <element signature="method#Merge#1;class#Merge#0" expanded="false" />
-            <element signature="method#print#0;class#Merge#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="25" column="37" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="714">
-          <folding />
-        </state>
+        <state line="34" column="5" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="714" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Insertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
-          <folding>
-            <element signature="method#Insertion#0;class#Insertion#0" expanded="false" />
-            <element signature="method#Insertion#1;class#Insertion#0" expanded="false" />
-            <element signature="method#print#0;class#Insertion#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="11" column="19" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="31" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="850">
-          <folding>
-            <element signature="method#Merge#0;class#Merge#0" expanded="false" />
-            <element signature="method#Merge#1;class#Merge#0" expanded="false" />
-            <element signature="method#print#0;class#Merge#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="30" column="31" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="697">
-          <folding />
-        </state>
+        <state line="17" column="5" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="697" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Bubble.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="595">
-          <folding>
-            <element signature="method#Bubble#0;class#Bubble#0" expanded="false" />
-            <element signature="method#Bubble#1;class#Bubble#0" expanded="false" />
-            <element signature="method#print#0;class#Bubble#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Bubble.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="646">
-          <folding>
-            <element signature="method#Bubble#0;class#Bubble#0" expanded="false" />
-            <element signature="method#Bubble#1;class#Bubble#0" expanded="false" />
-            <element signature="method#print#0;class#Bubble#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="16" column="11" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/S.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="25" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.5483871" vertical-offset="544" max-vertical-offset="1105">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="45" column="25" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.5483871" vertical-offset="544" max-vertical-offset="1105" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Bubble.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="4" selection-start="388" selection-end="388" vertical-scroll-proportion="0.3611111" vertical-offset="0" max-vertical-offset="629">
-          <folding>
-            <element signature="method#Bubble#0;class#Bubble#0" expanded="false" />
-            <element signature="method#Bubble#1;class#Bubble#0" expanded="false" />
-            <element signature="method#print#0;class#Bubble#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortalgos/Insertion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="397" selection-end="397" vertical-scroll-proportion="0.3888889" vertical-offset="0" max-vertical-offset="612">
-          <folding>
-            <element signature="method#Insertion#0;class#Insertion#0" expanded="false" />
-            <element signature="method#Insertion#1;class#Insertion#0" expanded="false" />
-            <element signature="method#print#0;class#Insertion#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="24" column="4" selection-start="388" selection-end="388" vertical-scroll-proportion="0.3611111" vertical-offset="0" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Selection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="421" selection-end="421" vertical-scroll-proportion="0.6327543" vertical-offset="0" max-vertical-offset="561">
-          <folding>
-            <element signature="method#Selection#0;class#Selection#0" expanded="false" />
-            <element signature="method#Selection#1;class#Selection#0" expanded="false" />
-            <element signature="method#print#0;class#Selection#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="26" column="5" selection-start="421" selection-end="421" vertical-scroll-proportion="0.6327543" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="22" selection-start="481" selection-end="481" vertical-scroll-proportion="0.2777778" vertical-offset="102" max-vertical-offset="765">
-          <folding>
-            <element signature="method#Merge#0;class#Merge#0" expanded="false" />
-            <element signature="method#Merge#1;class#Merge#0" expanded="false" />
-            <element signature="method#print#0;class#Merge#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortalgos/Quick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="9" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="29" column="22" selection-start="481" selection-end="481" vertical-scroll-proportion="0.2777778" vertical-offset="102" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="5" selection-start="642" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1088">
-          <folding />
-        </state>
+        <state line="55" column="5" selection-start="642" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructs/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="246" selection-end="246" vertical-scroll-proportion="0.28104576" vertical-offset="134" max-vertical-offset="2431" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructs/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="9" selection-start="1105" selection-end="3560" vertical-scroll-proportion="2.6666667" vertical-offset="425" max-vertical-offset="2210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructs/DataStructuresImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="27" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.9444444" vertical-offset="153" max-vertical-offset="1343" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sortalgos/Quick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="9" selection-start="670" selection-end="670" vertical-scroll-proportion="0.5277778" vertical-offset="374" max-vertical-offset="986" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortalgos/SortImplement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="345" selection-end="345" vertical-scroll-proportion="0.44444445" vertical-offset="0" max-vertical-offset="1802">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="86" column="28" selection-start="3722" selection-end="3902" vertical-scroll-proportion="0.0" vertical-offset="1157" max-vertical-offset="1904" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/AlgorithmGui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="21" selection-start="707" selection-end="707" vertical-scroll-proportion="0.5277778" vertical-offset="102" max-vertical-offset="884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/searchalgos/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="1" selection-start="74" selection-end="74" vertical-scroll-proportion="0.1388889" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/searchalgos/SearchImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="24" selection-start="21346" selection-end="21346" vertical-scroll-proportion="0.3472454" vertical-offset="608" max-vertical-offset="1207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/searchalgos/SequentialSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="69" selection-end="89" vertical-scroll-proportion="0.11111111" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sortalgos/Insertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.5833333" vertical-offset="68" max-vertical-offset="680">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructs/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="472" selection-end="481" vertical-scroll-proportion="0.25" vertical-offset="442" max-vertical-offset="2329">
+        <state line="46" column="5" selection-start="727" selection-end="727" vertical-scroll-proportion="0.5833333" vertical-offset="425" max-vertical-offset="2329">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructs/Queue.java">
+    <entry file="file://$PROJECT_DIR$/src/datastructs/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="246" selection-end="246" vertical-scroll-proportion="0.28104576" vertical-offset="134" max-vertical-offset="2431">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructs/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="195" selection-end="195" vertical-scroll-proportion="0.3611111" vertical-offset="0" max-vertical-offset="1445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructs/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="9" selection-start="1105" selection-end="3560" vertical-scroll-proportion="2.6666667" vertical-offset="425" max-vertical-offset="2210">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructs/DataStructuresImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="25" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1343">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructs/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+        <state line="17" column="5" selection-start="264" selection-end="264" vertical-scroll-proportion="0.71358025" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructs/StackLL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="622" selection-end="622" vertical-scroll-proportion="0.9234568" vertical-offset="187" max-vertical-offset="1717">
+        <state line="21" column="17" selection-start="361" selection-end="361" vertical-scroll-proportion="0.88148147" vertical-offset="0" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructs/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="195" selection-end="195" vertical-scroll-proportion="0.54567903" vertical-offset="0" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructs/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.3888889" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
